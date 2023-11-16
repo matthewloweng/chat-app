@@ -10,11 +10,11 @@ import Ai from "@/components/customMessageForms/Ai";
 import AiCode from "@/components/customMessageForms/AiCode";
 import AiAssist from "@/components/customMessageForms/AiAssist";
 
-const Chat = ({ user, secret }) => {
+const Chat = () => {
   const chatProps = useMultiChatLogic(
     import.meta.env.VITE_PROJECT_ID,
-    user,
-    secret
+    "testuser", // hardcoded since I broke auth, help skip login screen
+    "3623"
   );
 
   return (
