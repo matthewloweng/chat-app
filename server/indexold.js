@@ -4,7 +4,6 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
-import path from 'path';
 import { Configuration, OpenAIApi } from "openai";
 import openAiRoutes from "./routes/openai.js";
 // import authRoutes from "./routes/auth.js";
@@ -30,16 +29,8 @@ export const openai = new OpenAIApi(configuration);
 app.use("/openai", openAiRoutes);
 // app.use("/auth", authRoutes);
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, '../client/build')));
-
-// The "catchall" handler
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
-});
-
 /* SERVER SETUP */
 const PORT = process.env.PORT || 9000;
 app.listen(PORT, () => {
-  console.log(`Server listening at http://localhost:${PORT}`);
+  console.log(`Example app listening at http://localhost:${PORT}`);
 });
