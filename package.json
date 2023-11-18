@@ -1,7 +1,7 @@
 {
     "name": "ai-chat-app",
     "version": "1.0.0",
-    "description": "Your project description",
+    "description": "chat app",
     "engines": {
         "node": "20.x"
     },
