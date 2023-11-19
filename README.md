@@ -73,7 +73,8 @@ After starting the application, navigate to 'https://localhost3000' in your brow
 
 ## Notes
 
-Currently attempting to deploy to heroku, contributions are welcome!
+Broke authentication :( going to try to debug but need to finish other features first.
+When features are complete, will deploy to heroku.
 
 ## Contact
 
