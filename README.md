@@ -74,3 +74,7 @@ After starting the application, navigate to 'https://localhost3000' in your brow
 ## Notes
 
 Currently attempting to deploy to heroku, contributions are welcome!
+
+## Contact
+
+matthew.j.ng@gmail.om
