@@ -77,4 +77,4 @@ Currently attempting to deploy to heroku, contributions are welcome!
 
 ## Contact
 
-matthew.j.ng@gmail.om
+matthew.j.ng@gmail.com
