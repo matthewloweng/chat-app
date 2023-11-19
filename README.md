@@ -20,3 +20,21 @@ Before installation, ensure you have Node.js version 20.x installed.
    ```sh
    git clone https://github.com/matthewloweng/chat-app
    ```
+2. Install Dependencies
+   Install root dependencies:
+   ```sh
+   npm install
+   ```
+   Install client dependencies:
+   ```sh
+   cd client
+   npm install
+   ```
+   Install server dependencies:
+   ```sh
+   cd server
+   npm install
+   ```
+3. Environment setup
+   Create a '.env' file in the server directory.
+   Add the following keys:
