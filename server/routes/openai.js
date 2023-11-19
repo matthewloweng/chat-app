@@ -24,7 +24,7 @@ router.post("/text", async (req, res) => {
         { role: "system", content: "You are a helpful assistant." }, // this represents the bot and what role they will assume
         { role: "user", content: text }, // the message that the user sends
 
-        // BONUS NOTE: you can also provide a list of messages to the bot to give context
+        // NOTE: you can also provide a list of messages to the bot to give context
         // and the bot can use that information to respond to the user as needed, ie adding:
         // { role: "assistant", content: "The weather sucks today." },
 
