@@ -38,3 +38,39 @@ Before installation, ensure you have Node.js version 20.x installed.
 3. Environment setup
    Create a '.env' file in the server directory.
    Add the following keys:
+   ```sh
+   OPENAI_API_KEY=[Your OpenAI API Key]
+   PROJECT_ID=[Your Chat Engine Project ID]
+   BOT_USER_NAME=[Bot Username]
+   BOT_USER_SECRET=[Bot User Secret]
+   ```
+4. Running the Application
+   To run both client and server conurrently:
+
+```sh
+npm run dev
+```
+
+To run the server only:
+
+```sh
+npm run start-server
+```
+
+To run the client only:
+
+```sh
+npm run start-client
+```
+
+## Usage
+
+After starting the application, navigate to 'https://localhost3000' in your browser to access the chat interface. You can use the chat to interact with the following AI chat bots:
+
+1. Auto-text completion
+2. Code suggestions/completion
+3. Thought assistance
+
+## Notes
+
+Currently attempting to deploy to heroku, contributions are welcome!
