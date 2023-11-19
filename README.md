@@ -17,6 +17,6 @@ Text, Code, and Thought Completion: Offers various modes of AI-driven interactio
 Before installation, ensure you have Node.js version 20.x installed.
 
 1. Clone the Repository
-   '''sh
+   ```sh
    git clone https://github.com/matthewloweng/chat-app
-   '''
+   ```
