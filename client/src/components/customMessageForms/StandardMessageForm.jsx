@@ -13,6 +13,7 @@ const StandardMessageForm = ({ props, activeChat }) => {
       .replace("T", " ")
       .replace("Z", `${Math.floor(Math.random() * 1000)}+00:00`);
     const at = attachment ? [{ blob: attachment, file: attachment.name }] : [];
+    // you can find more information about below at https://rest.chatengine.io
     const form = {
       attachments: at,
       created: date,

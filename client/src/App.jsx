@@ -11,7 +11,6 @@ function App() {
         <Routes>
           <Route
             path="/chat" element={<Chat/>} />
-
         </Routes>
       </BrowserRouter>
     </div>

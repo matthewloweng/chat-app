@@ -1,6 +1,6 @@
 import React from "react";
 import { ChatBubbleLeftRightIcon, PhoneIcon } from "@heroicons/react/24/solid";
-
+// can modify above for different icons? check heroicons.com
 const CustomerHeader = ({ chat }) => {
   return (
     <div className="chat-header">
